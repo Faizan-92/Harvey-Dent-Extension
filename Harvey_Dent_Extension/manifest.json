@@ -1,0 +1,15 @@
+{
+    "name": "Harvey Dent",
+    "version": "1.0",
+    "description": "Kills all the open tabs with 50% chance :P",
+    "permissions": ["tabs"],
+    "author":"Faizan Memon",
+    "background": {
+      "scripts": ["js/background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+        "name": "Manipulate DOM"
+    },
+    "manifest_version": 2
+}
